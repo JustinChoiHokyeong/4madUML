@@ -1,1 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2022-11-13T15:03:01.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.2" etag="8CtuF5rYO8HqV1HdiB85" type="github"><diagram id="ECNyQy15k7tIjmcyGsZN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-13T15:07:40.194Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DHbtg5TGqcioLIJqXohD" version="20.5.2" type="github">
+  <diagram id="ECNyQy15k7tIjmcyGsZN" name="페이지-1">
+    <mxGraphModel dx="355" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WuKC19Tn9_xQ8fTohOLj-1" value="Web Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuKC19Tn9_xQ8fTohOLj-2" value="Client browser" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuKC19Tn9_xQ8fTohOLj-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WuKC19Tn9_xQ8fTohOLj-2" target="WuKC19Tn9_xQ8fTohOLj-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="280" as="sourcePoint" />
+            <mxPoint x="210" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuKC19Tn9_xQ8fTohOLj-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WuKC19Tn9_xQ8fTohOLj-4" target="WuKC19Tn9_xQ8fTohOLj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WuKC19Tn9_xQ8fTohOLj-4" value="요청 종류" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WuKC19Tn9_xQ8fTohOLj-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WuKC19Tn9_xQ8fTohOLj-1" target="WuKC19Tn9_xQ8fTohOLj-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="280" as="sourcePoint" />
+            <mxPoint x="370" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuKC19Tn9_xQ8fTohOLj-6" value="정적 요청" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="WuKC19Tn9_xQ8fTohOLj-7">
+          <mxGeometry x="-0.25" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="250" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuKC19Tn9_xQ8fTohOLj-7" value="정적 파일&lt;br&gt;(js, css, image, xml, json 등)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuKC19Tn9_xQ8fTohOLj-9" value="동적 요청" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WuKC19Tn9_xQ8fTohOLj-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="350" as="sourcePoint" />
+            <mxPoint x="380" y="340" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuKC19Tn9_xQ8fTohOLj-10" value="WSGI Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuKC19Tn9_xQ8fTohOLj-12" value="WSGI Application&lt;br&gt;(Django)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuKC19Tn9_xQ8fTohOLj-13" value="DB Server&lt;br&gt;(Mysql, Oracle)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="540" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuKC19Tn9_xQ8fTohOLj-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WuKC19Tn9_xQ8fTohOLj-10" target="WuKC19Tn9_xQ8fTohOLj-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="450" as="sourcePoint" />
+            <mxPoint x="400" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuKC19Tn9_xQ8fTohOLj-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WuKC19Tn9_xQ8fTohOLj-12" target="WuKC19Tn9_xQ8fTohOLj-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="530" as="sourcePoint" />
+            <mxPoint x="390" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
